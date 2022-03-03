@@ -10,7 +10,7 @@ describe('ProductTitle', () => {
     );
 
     expect(wrapper).toMatchSnapshot();
-    console.log(wrapper.toJSON());
+    // console.log(wrapper.toJSON());
   });
 
   test('debe mostrar el componente correctamente con el nombre del producto', () => {

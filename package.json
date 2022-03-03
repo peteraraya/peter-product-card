@@ -53,6 +53,7 @@
     }
   ],
   "devDependencies": {
+    "@types/react-test-renderer": "^17.0.1",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@rollup/plugin-image": "^2.1.1",
@@ -82,9 +83,6 @@
     "peter",
     "araya"
   ],
-  "dependencies": {
-    "@types/react-test-renderer": "^17.0.1"
-  },
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
